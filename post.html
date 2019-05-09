@@ -5,13 +5,7 @@
   <meta charset="UTF-8">
   <title>留言本</title>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-  <style>
-  .main {}
-
-  .main .head {
-    margin-bottom: 25px;
-  }
-  </style>
+  
 </head>
 
 <body>
@@ -24,19 +18,19 @@
         <form>
           <div class="form-group">
             <label for="exampleInputEmail1">您的大名</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name" name="name">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">您的邮箱</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="email" name="email">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">您的电话</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="tel" name="tel">
           </div>
           <div class="form-group">
             <label for="exampleInputFile">留言内容</label>
-            <textarea class="form-control" rows="5"></textarea>
+            <textarea class="form-control" rows="5" name="content"></textarea>
           </div>
           <button type="submit" class="btn btn-danger">取消</button>
           <button type="submit" class="btn btn-success">提交</button>
